@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Offical Form Page</title>
+    </head>
+    <body>
+        <style>
+            body{
+                background-image: url(t.jpg);
+                background-repeat: no-repeat;
+                background-attachment: fixed;
+                background-size: 100%;
+            }
+         
+            form,h1{
+                color: azure;
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                text-align: center;
+                font-size: 40px;
+            }
+            form input{
+                color: white;
+                background: transparent;
+                border: 2px solid skyblue;
+                border-radius: 4px;
+                font-size: 20px;
+                padding: 10px;
+            }
+        </style>
+        <h1>Form Page</h1>
+        <form method="post">
+
+            <label>Username</label>
+            <input type="text" placeholder="Please Enter your Username" name="Username" required><br><br>
+            <label>Password</label>
+            <input type="password" placeholder="Please Enter your Password" name="password" required><br><br>
+            <label>E-mail</label>
+            <input type="email" placeholder="Please Enter your E-mail" name="E-mail" required><br><br>
+            <label>Phone Number</label>
+            <input type="tel" placeholder="Please Enter your Phone Number" name="Phone number" required ><br><br>
+            <label>Gender</label>
+            <input type="radio" name="Gender" value="Male">Male
+            <input type="radio" name="Gender" value="Female">Female<br><br>
+            <input type="submit"><br><br>
+            <input type="reset">
+            </form>
+    </body>
+</html>
+ 
